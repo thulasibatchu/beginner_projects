@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            background-color:beige;
+            color:#222;
+            padding:20px;
+            max-width:300px;
+            margin:30px auto;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            width:100%;
+            padding:8px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border-radius:5px;
+        }
+        button{
+            width:auto;
+            padding:10px;
+            background-color:  #03dac6;
+            color:#000;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            display:block;
+            margin:10px auto;
+        }
+        button :hover{
+            background-color: #02c1b2;
+        }
+        @media (max-width:600px){
+            form-section{
+                width:90%;
+                padding:15px;
+            }
+            input,button{
+                font-size:10px;
+                padding:14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Login Form</h2>
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+
+            <label for="password">password:</label><br>
+            <input type="password" id="password" placeholder="Enter Your password"><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+</body>
+</html>
