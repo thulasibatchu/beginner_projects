@@ -1,0 +1,15 @@
+.outer-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+    background-color: bisque;
+}
+.card{
+    background-color:aquamarine;
+    color:#000;
+    border-radius: 8px;
+    padding:10px;
+    display:grid;
+    grid-template-rows:auto 1fr;
+}
