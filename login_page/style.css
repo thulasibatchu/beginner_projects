@@ -1,0 +1,35 @@
+form{
+   background-color:bisque;
+   color:#222;
+   padding: 20px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin:30px auto;
+   display:grid;
+   gap:15px;
+}
+input{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.gender-group{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+button{
+    border-radius: 5px;
+    color:#222;
+    padding:10px;
+    background-color: #03dac6;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+}

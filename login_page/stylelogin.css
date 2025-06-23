@@ -1,0 +1,26 @@
+form{
+    background-color: bisque;
+    color:white;
+    padding:20px;
+    max-width: 300px;
+    margin:30px auto;
+    border-radius:10px;
+    display:grid;
+    gap:15px;
+}
+
+input{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #03dac6;
+    color:black;
+    padding:10px;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
